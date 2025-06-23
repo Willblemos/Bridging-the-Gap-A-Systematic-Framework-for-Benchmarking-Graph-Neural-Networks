@@ -1,8 +1,8 @@
-data = results_df
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+data = results_df
 
 # Convert the data into a pandas DataFrame
 df = pd.DataFrame(data, columns=[

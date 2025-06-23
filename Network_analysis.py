@@ -19,7 +19,7 @@ import time
 import pandas as pd
 
 
-# Load DATASETS ###########################################################
+# Load DATASETS ##########################################################
 KarateClub_dataset = KarateClub()
 Cora_dataset = Planetoid(root='data/Cora', name='Cora')
 Citeseer_dataset = Planetoid(root='data/Planetoid', name='Citeseer')

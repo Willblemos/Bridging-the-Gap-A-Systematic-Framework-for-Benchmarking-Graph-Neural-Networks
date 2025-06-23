@@ -23,7 +23,7 @@ import time
 # Variável global para armazenar os resultados
 results_df = pd.DataFrame(columns=['Dataset', 'Nodes', 'Edges', 'Model', 'Num Layers', 'Num Neurons', 'Learning Rate', 'Dropout', 'Train Accuracy', 'Test Accuracy','Execution Time', 'Setup'])
 
-# Load DATASETS ###########################################################
+# Load DATASETS ##########################################################
 KarateClub_dataset = KarateClub()
 Cora_dataset = Planetoid(root='data/Cora', name='Cora')
 Citeseer_dataset = Planetoid(root='data/Planetoid', name='Citeseer')
